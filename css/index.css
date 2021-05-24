@@ -6,16 +6,14 @@ body{
 .header_nav{
     width: 100%;
     height: 80px;
-
     display: grid;
     grid-template-columns: 500px 550px;
     align-items: center;
     justify-content: center;
-top: 0;
+    top: 0;
     position: fixed;
     background: #fff;
     z-index: 1000;
-
 }
 .nav_menu {
     display: inline-flex;
@@ -119,17 +117,18 @@ background: #000;
 }
 .our_offers_card{
     justify-content: center;
-    text-align: center;
+    text-align: left;
     margin-left: 100px;
     margin-top: 20px;
     height: 170px;
-    border:5px solid rgba(0,0,0,0.2)  ;
-
+    border:5px solid rgba(0,0,0,0.2);
     padding-top: 15px;
 }
 .first_info_card{
     word-spacing: 2px;
-    font-size: 20px;
+    font-size: 17px;
+    margin-left: 19px;
+
 
 }
 .phone{padding-right: 10px}
@@ -147,7 +146,7 @@ background: #000;
     background: url(../img/fon_second_block.jpg) no-repeat;
     background-attachment: fixed;
     background-size:cover;
-    margin-top: -20px;
+    margin-top: -1px;
     width: 100%;
     height: 500px;
 
@@ -176,7 +175,7 @@ font-size: 52px;
     text-align: center;
     width: 80%;
 }
-.third_block{background: #fff;
+.third_block{background: #fff;margin-top: -30px;padding-bottom: 40px;
 }
 .welcome_block{
     display: grid;
@@ -314,13 +313,15 @@ padding-top: 80px;
     grid-template-columns: 640px 640px;
     background: #fff;
     padding: 50px;
+
+
 }
 .right_five_block{
     width: auto;
     height: auto;
 margin: 0 auto;
 }
-
+.left_five_block{margin-left: 50px}
 .col_block{
 margin-top: 30px;
     display: grid;
@@ -345,4 +346,162 @@ margin-top: 30px;
 }
 .header_under_text{
     font-size: 18px;
+}
+.btn_5bl{
+    background: #000;
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+}
+.five_block_three,.five_block_four{
+    margin-top: 50px;
+}
+.six_block{
+    background: #fff;
+}
+.text_header{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px 0px 0 50px;
+    margin-left: 40px;
+}
+.galary{
+    display: grid;
+    grid-template-columns: 390px 390px 390px;
+
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    position: relative;
+}
+.card_of_galary1:hover{
+     display: block;
+
+}
+.icon {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-user:hover {
+    color: #eee;
+}
+.container:hover .overlay{
+    opacity: 1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background: rgba(0,0,0,0.8);
+}
+.btn_5bl:hover{
+    background: rgba(0,0,0,0.5);
+}
+.list_icon:hover{
+    background: rgba(0,0,0,0.5);
+}
+.footer{
+    padding: 20px 0 20px 0;
+    background: #111111;
+
+}
+.under_block{
+    display: grid;
+    grid-template-columns: 330px 530px 390px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.under_links li{
+    list-style-type: none;
+    color: rgba(255,255,255,0.5);
+    padding: 10px 10px 10px 15px;
+    position: relative;
+}
+.under_contacts li{
+list-style-type: none;
+    color: rgba(255,255,255,0.5);
+    padding: 10px 10px 10px 15px;
+    position: relative;
+
+}
+.under_links a{
+text-decoration: none;
+    color: rgba(255,255,255,0.5);
+}
+.under_links a:hover{
+    color: #fff;
+}
+.right-arrow:before {
+    content:'\25BA'
+}
+.under_contacts span{
+    padding-left: 15px;
+
+}
+.under_contacts p{
+    margin-left: 10px;
+}
+.under_email p{
+    color: rgba(255,255,255,0.5);
+
+}
+.btn_under{
+    margin-top: 20px;
+    height: 30px;
+    width: 220px;
+    background: #000;
+    color: #fff;
+    border: none;
+}
+.under_email input{
+height: 30px;
+    width: 210px;
+}
+.btn_under:hover{
+    background: rgba(255,255,255,0.3);
+}
+footer{
+    background: #0B0B0B;
+    padding: 5px 0 5px 0;
+    display: grid;
+    grid-template-columns: 850px 300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer_block{
+    color: rgba(255,255,255,0.5);
+}
+.social_links li{list-style-type: none;padding-left: 10px;
+    color: rgba(255,255,255,0.5);
+}
+.social_links{display: inline-flex; }
+.social_links li:hover{
+    color: #fff;
+}
+.text_second{
+
+}
+.sk_bl{
+    margin-left: 32px;
 }
